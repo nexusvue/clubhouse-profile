@@ -39,7 +39,7 @@ const Home = () => {
         title: '👋 DOOGLE invited you to view his LinkedIn!',
         onClickLater: () => setMessageShown(false),
         onClickOkay: () => {
-          openURL('https://www.linkedin.com/in/cammcdougall/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bz0tSDft8QqmBr42lswdSEA%3D%3D');
+          openURL('emailto:cam@doogle.xyz');
           setMessageShown(false);
         },
       });
