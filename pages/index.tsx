@@ -31,7 +31,7 @@ const Home = () => {
     .format('MMM DD, yyyy');
 
   useEffect(() => {
-    ReactGA.initialize('G-3JHG3XBMTX');
+    ReactGA.initialize('G-54XBMTX');
     ReactGA.pageview(window.location.pathname + window.location.search);
 
     setTimeout(() => {
