@@ -39,7 +39,7 @@ const Home = () => {
         title: '👋 DOOGLE invited you to get connected!',
         onClickLater: () => setMessageShown(false),
         onClickOkay: () => {
-          openURL('https://www.jotform.com/assign/210571000799856/210570795566060');
+          openURL('https://www.emailmeform.com/builder/form/m9c6bc8cF5L559j6H');
           setMessageShown(false);
         },
       });
@@ -61,7 +61,7 @@ const Home = () => {
       setMessageShown(true);
       setTimeout(() => {
         if (avatarTouchCount >= 10) {
-          openURL('https://www.jotform.com/assign/210571000799856/210570795566060');
+          openURL('https://www.emailmeform.com/builder/form/m9c6bc8cF5L559j6H');
         }
         setMessageShown(false);
       }, 2500);
