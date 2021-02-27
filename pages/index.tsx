@@ -61,7 +61,7 @@ const Home = () => {
       setMessageShown(true);
       setTimeout(() => {
         if (avatarTouchCount >= 10) {
-          openURL('https://www.linkedin.com/in/cammcdougall/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bz0tSDft8QqmBr42lswdSEA%3D%3D');
+          openURL('https://www.jotform.com/assign/210571000799856/210570795566060');
         }
         setMessageShown(false);
       }, 2500);
