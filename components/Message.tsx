@@ -37,7 +37,7 @@ const Message: React.FC<StrictUnion<MessageProps>> = ({
           <ButtonList>
             <Button onClick={onClickLater}>Maybe later?</Button>
             <Button primary onClick={onClickOkay}>
-              Join his followers
+              Connect with DOOGLE!
             </Button>
           </ButtonList>
         )}
