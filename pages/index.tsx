@@ -39,7 +39,7 @@ const Home = () => {
         title: '👋 DOOGLE invited you to get connected!',
         onClickLater: () => setMessageShown(false),
         onClickOkay: () => {
-          openURL('https://www.emailmeform.com/builder/form/m9c6bc8cF5L559j6H');
+          openURL('http://instagram.com/doogle.xyz');
           setMessageShown(false);
         },
       });
@@ -61,7 +61,7 @@ const Home = () => {
       setMessageShown(true);
       setTimeout(() => {
         if (avatarTouchCount >= 10) {
-          openURL('https://www.emailmeform.com/builder/form/m9c6bc8cF5L559j6H');
+          openURL('http://instagram.com/doogle.xyz');
         }
         setMessageShown(false);
       }, 2500);
