@@ -36,10 +36,10 @@ const Home = () => {
 
     setTimeout(() => {
       setMessage({
-        title: '👋 Junho Yeo invited you to view his GitHub profile',
+        title: '👋 DOOGLE invited you to view his LinkedIn!',
         onClickLater: () => setMessageShown(false),
         onClickOkay: () => {
-          openURL('https://github.com/junhoyeo');
+          openURL('https://www.linkedin.com/in/cammcdougall/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bz0tSDft8QqmBr42lswdSEA%3D%3D');
           setMessageShown(false);
         },
       });
@@ -61,7 +61,7 @@ const Home = () => {
       setMessageShown(true);
       setTimeout(() => {
         if (avatarTouchCount >= 10) {
-          openURL('https://github.com/junhoyeo/clubhouse-profile');
+          openURL('https://www.linkedin.com/in/cammcdougall/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bz0tSDft8QqmBr42lswdSEA%3D%3D');
         }
         setMessageShown(false);
       }, 2500);
