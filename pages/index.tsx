@@ -165,7 +165,7 @@ const Home = () => {
         </NorminationContainer>
         <OpenAppButton
           isMobile={isMobile}
-          title="Open app to follow me"
+          title="Click to open the ClubHouse app, and search "DOOGLE" to follow me!"
           onClick={onClickAppButton}
         />
       </Wrapper>
