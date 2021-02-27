@@ -36,10 +36,10 @@ const Home = () => {
 
     setTimeout(() => {
       setMessage({
-        title: '👋 DOOGLE invited you to view his LinkedIn!',
+        title: '👋 DOOGLE invited you to get connected!',
         onClickLater: () => setMessageShown(false),
         onClickOkay: () => {
-          openURL('emailto:cam@doogle.xyz');
+          openURL('https://www.jotform.com/assign/210571000799856/210570795566060');
           setMessageShown(false);
         },
       });
